@@ -66,9 +66,18 @@
 
 ---
 
-###  SmartAgroShield · 智能农业防护
+###  SmartAgroShield · 猕猴桃病害智能识别与防护
 
-面向智慧农业的智能防护系统。
+基于 **ShuffleNetV2** 的猕猴桃叶片四分类病害识别系统，融合温湿度多模态输入实现环境风险预警，提供桌面端与 Web 端双形态交付。
+
+[![Python](https://img.shields.io/badge/Python-blue?logo=python)](https://github.com/yugan-tano/SmartAgroShield)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://github.com/yugan-tano/SmartAgroShield)
+
+-  部署模型 **ShuffleNetV2**（**1.26M** 参数），测试准确率 **85.47%**，推理延迟约 **48.6ms**/图。
+-  四分类病害识别：褐斑病 / 灰霉病 / 健康 / 溃疡病。
+-  多模态融合：图像识别结果 + 温湿度输入 → 环境风险等级与防治建议。
+-  多模型对比实验：ShuffleNetV2 / MobileNetV3 / ResNet50 / EfficientNet，含混淆矩阵与训练曲线。
+-  双端交付：Tkinter 桌面端（PyInstaller 打包 exe）+ Flask Web 端。
 
 [ 查看仓库](https://github.com/yugan-tano/SmartAgroShield)
 
