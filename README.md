@@ -8,10 +8,6 @@
 
 *Research Interest: Embodied AI / World Models / Model-Based RL*
 
-```
-░▒▓█ 浅粉 × 浅蓝 · 像素风 █▓▒░
-```
-
 </div>
 
 <img src="assets/divider.png" width="70%" alt="">
@@ -119,9 +115,6 @@ Python、数据分析、算法与深度学习的系统学习笔记。
 
 <div align="center">
 
-```
-░▒▓█ 像素风 · 浅粉浅蓝 █▓▒░
-```
 
 📫 联系我 · Reach me: 见仓库主页或提交 Issue
 
