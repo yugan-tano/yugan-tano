@@ -19,6 +19,23 @@
 
 ---
 
+##  在研项目 · In-Progress Research
+
+###  UniWM · 面向视觉导航的统一世界模型
+
+[![Status](https://img.shields.io/badge/Status-In_Progress-orange)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2510.08713-B31B1B.svg)](https://arxiv.org/abs/2510.08713)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://github.com/yugan-tano/UniWM)
+
+论文 [UniWM](https://arxiv.org/abs/2510.08713) 的复现与研读：以**单一多模态自回归骨干**统一**视觉展望（Foresight）**与**规划（Planning）**，通过**分层记忆机制**融合短期感知线索与长期轨迹上下文，实现记忆增强的端到端视觉导航。
+
+- 关键技术：Anole-7b · LoRA 微调 · 记忆银行（Memory Bank）· 视觉展望
+- 复现进度：骨架 / 环境 ⬛ 完成 · 核心模型 🔄 进行中 · 训练评估 ⬜ 待开始
+
+[ 查看仓库](https://github.com/yugan-tano/UniWM)
+
+---
+
 ##  项目 · Featured Projects
 
 ###  基于 DreamerV3 世界模型的居家服务机器人导航系统
